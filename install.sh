@@ -2,7 +2,7 @@
 
 if ! [ -x $(command -v brew) ]
 then
-printf "The required library Pillow has dependencies that should be installed via Homebrew. Installing now...\n"
+printf "The required library Pillow has dependencies that should be installed via Homebrew. Installing Homebrew now...\n"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
